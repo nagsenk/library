@@ -14,7 +14,7 @@ background-size:cover;
 .header h1{margin-top:70px;color:#c6dde3;font-size:70px;text-align:center;font-family:georgia;}/*main name parivartan prabhat*/
 .quote h2{margin-top:40px;color:white;font-size:40px;text-align:center;font-family:georgia;}/*quote*/
  
-.aboutus {
+.aboutus {/*welcome box*/
 width:600px;
 height:400px;
 margin: 6% auto;
@@ -53,10 +53,9 @@ margin-top:100px;
 </style>
 </head>
 <body>
-
 <div class="container">
 <div class="header">
-<h1>Parivartan Prabhat Library</h1>
+<h1>Parivartan Prabhat</h1>
 </div>
 <div class="quote">
 <h2>A place Vibrating with ideas!!         Keep Calm and Read On</h2>
@@ -72,14 +71,14 @@ body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
-
+/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-
+/* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -136,9 +135,6 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-a {
-  color: yellow;
-}
 </style>
 </head>
 <body>
@@ -168,7 +164,7 @@ a {
   <span class="dot"></span> 
   <span class="dot"></span> 
 </div>
-<style><style>
+
 <script>
 var slideIndex = 0;
 showSlides();
@@ -200,13 +196,13 @@ function showSlides() {
 </div>
 <div class="login"><!three buttons>
 
-<div class="u"><form action="/memlogin"><input id="user" type="submit" name="user_login" value="Member Login"><a href=""></a></input></form></div>
-<div class="e"><form action="/emplogin"><input id="employee" type="submit" name="emp_login" value="Employee Login"></input></form></div>
-<div class="m"><form action="/managerlogin"> <input id="manager" type="submit" name="man_login" value="Manager Login"></input></form></div>
+<div class="u"><form action="/member/login"><input id="user" type="submit" name="user_login" value="User Login"><a href=""></a></input></form></div>
+<div class="e"><form action="/employee/login"><input id="employee" type="submit" name="emp_login" value="Employee Login"></input></form></div>
+<div class="m"><form action="/manager/login"> <input id="manager" type="submit" name="man_login" value="Manager Login"></input></form></div>
 
 </div>
 <div id="footer"><!copyright>
-<h2 style="text-align:center; padding-top:30px; color:#f1efea ">&copy 2019 by Parivartan prabhat</h2>
+<h2 style="text-align:center; padding-top:30px; color:#f1efea ">&copy 2019 by www.mylibrary.com</h2>
 </div>
 </div>
 </body>
