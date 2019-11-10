@@ -196,9 +196,9 @@ function showSlides() {
 </div>
 <div class="login"><!three buttons>
 
-<div class="u"><form action="/member/login"><input id="user" type="submit" name="user_login" value="User Login"><a href=""></a></input></form></div>
-<div class="e"><form action="/employee/login"><input id="employee" type="submit" name="emp_login" value="Employee Login"></input></form></div>
-<div class="m"><form action="/manager/login"> <input id="manager" type="submit" name="man_login" value="Manager Login"></input></form></div>
+<div class="u"><form action="/memlogin"><input id="user" type="submit" name="user_login" value="User Login"><a href=""></a></input></form></div>
+<div class="e"><form action="/emplogin"><input id="employee" type="submit" name="emp_login" value="Employee Login"></input></form></div>
+<div class="m"><form action="/managerlogin"> <input id="manager" type="submit" name="man_login" value="Manager Login"></input></form></div>
 
 </div>
 <div id="footer"><!copyright>
